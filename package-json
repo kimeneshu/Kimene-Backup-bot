@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "djs-commands": "^1.2.2",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.10.1",
+    "ms": "^2.1.2",
+    "parse-ms": "^2.0.0",
+    "pretty-ms": "^7.0.0",
+    "quick.db": "^7.1.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
+ //eski botum oldugu için v11 test etmedim çalışıyormu çalışmıyorsa v12 sürümüne yükseltirsiniz
