@@ -12,7 +12,7 @@ mongoose
   .then(console.log("Mongoose Bağlandı Kimene Role Backup Sistemi devreye girmiş bulunmaktadır."));
   
 client.on("ready", () => {
-  setInterval(() => roleBackup(), 5000);
+  setInterval(() => roleBackup(), SAYI); //backupu kaç dakikada veya saatte aldırmak istiyorsanız sayı yazan yere değeri girebilirsiniz.
 });
 
 client.on("ready", async () => {
