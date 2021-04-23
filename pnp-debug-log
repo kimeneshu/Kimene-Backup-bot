@@ -1,0 +1,47 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      version: "0.0.1"
+      main: "index.js"
+      scripts: 
+        start: "node index.js"
+      dependencies: 
+        discord.js: "^11.5.1"
+        djs-commands: "^1.2.2"
+        express: "^4.17.1"
+        moment: "^2.27.0"
+        moment-duration-format: "^2.3.2"
+        mongoose: "^5.10.1"
+        ms: "^2.1.2"
+        parse-ms: "^2.0.0"
+        pretty-ms: "^7.0.0"
+        quick.db: "^7.1.1"
+        request: "^2.88.2"
+      engines: 
+        node: "8.x"
+      gitHead: "198d9591c78f5945b13f6dbeb0a62519f7bb7d2e"
+      name: ""
+      readme: "ERROR: No README data found!"
+      _id: "@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving express that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/c625f218-76e5-426d-8136-0e83136b5d5d/node_modules/express"
+      dest: "/rbd/pnpm-volume/c625f218-76e5-426d-8136-0e83136b5d5d/node_modules/.ignored/express"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/c625f218-76e5-426d-8136-0e83136b5d5d/node_modules/express' -> '/rbd/pnpm-volume/c625f218-76e5-426d-8136-0e83136b5d5d/node_modules/.ignored/express'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/c625f218-76e5-426d-8136-0e83136b5d5d/node_modules/express' -> '/rbd/pnpm-volume/c625f218-76e5-426d-8136-0e83136b5d5d/node_modules/.ignored/express'"
